@@ -1,1 +1,1 @@
-This script intends to backup your internet connection by polling two nework interfaces, when there is no internet conectivity on the first it switches the default routing to the second if it has got internet conectivity. When conectivity on the first has resumed it will switch back.
+This script intends to backup your internet connection by polling two network interfaces, when there is no internet conectivity on the first it switches the default routing to the second if it has got internet conectivity. When conectivity on the first has resumed it will switch back.
