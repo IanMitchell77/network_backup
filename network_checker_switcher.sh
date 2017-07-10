@@ -9,7 +9,7 @@ CAN_PING_INTERNET_ON_WIFI=0
 while :
 do
 	if ping -I enp2s0f2 -c 1 -W 1 192.168.0.1 &> /dev/null; then
-		if $CAN_PING_SKY_ROUTER == 0; then
+		if [ "$CAN_PING_SKY_ROUTER" == 0 ]; then
 			/usr/bin/notify-send "Ethernet can now ping the Sky router"
 			echo `date`:enp2s0f2 can ping the Sky router
 		fi
